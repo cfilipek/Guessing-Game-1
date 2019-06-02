@@ -2,8 +2,7 @@
 let mysteryNumber = Math.floor(Math.random() * 99);
 let playersGuess = 0;
 let guessesRemaining = 5;
-let guessesMAde = 0;
-let gameState = '';
+let guessesMade = 0;
 let gameWon = false;
 
 //The input and output fields
@@ -57,6 +56,7 @@ function validateInput() {
     } else {
         playGame();
     }
+
 }
 
 
