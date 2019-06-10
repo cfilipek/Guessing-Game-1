@@ -16,6 +16,7 @@ let resetButton = document.querySelector("#reset");
 
 //change syle of the cursor
 button.style.cursor = "pointer";
+resetButton.style.cursor = "pointer";
 //add event listener
 button.addEventListener('click', clickHandler, false);
 
